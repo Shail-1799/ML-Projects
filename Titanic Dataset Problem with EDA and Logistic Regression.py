@@ -1,13 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# ___
-# 
-# <a href='http://www.pieriandata.com'> <img src='../Pierian_Data_Logo.png' /></a>
-# ___
 # # Logistic Regression with Python
 # 
-# For this lecture we will be working with the [Titanic Data Set from Kaggle](https://www.kaggle.com/c/titanic). This is a very famous data set and very often is a student's first step in machine learning! 
+# For this project we will be working with the [Titanic Data Set from Kaggle](https://www.kaggle.com/c/titanic). This is a very famous data set and very often is a student's first step in machine learning! 
 # 
 # We'll be trying to predict a classification- survival or deceased.
 # Let's begin our understanding of implementing Logistic Regression in Python for classification.
@@ -293,10 +287,4 @@ from sklearn.metrics import classification_report
 print(classification_report(y_test,predictions))
 
 
-# Not so bad! You might want to explore other feature engineering and the other titanic_text.csv file, some suggestions for feature engineering:
-# 
-# * Try grabbing the Title (Dr.,Mr.,Mrs,etc..) from the name as a feature
-# * Maybe the Cabin letter could be a feature
-# * Is there any info you can get from the ticket?
-# 
 # ## Great Job!
